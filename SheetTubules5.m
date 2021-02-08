@@ -22,7 +22,7 @@ function varargout = SheetTubules5(varargin)
 
 % Edit the above text to modify the response to help SheetTubules5
 
-% Last Modified by GUIDE v2.5 08-May-2017 15:23:29
+% Last Modified by GUIDE v2.5 06-Feb-2021 14:47:00
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -73,9 +73,9 @@ function varargout = SheetTubules5_OutputFcn(hObject, eventdata, handles)
 varargout{1} = handles.output;
 
 
-% --- Executes on button press in load_sheet_image.
-function load_sheet_image_Callback(hObject, eventdata, handles)
-% hObject    handle to load_sheet_image (see GCBO)
+% --- Executes on button press in load_total_ER_image.
+function load_total_ER_image_Callback(hObject, eventdata, handles)
+% hObject    handle to load_total_ER_image (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 set(handles.axes1, 'NextPlot', 'replace');
